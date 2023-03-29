@@ -17,8 +17,8 @@ This app demonstrate the use of mvvm architecure with koin depenedency injection
 
 
 ## Description
-- ExoPlatyer Application application has two Pages
-- Main screen show latest movues lisrt ,movie trailer page
+- ExoPlatyer Application  has two Pages
+- Main screen show latest movies list ,movie trailer page
 
 ## License
 ```
