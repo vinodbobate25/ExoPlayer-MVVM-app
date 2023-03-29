@@ -1,5 +1,5 @@
 # News App
-<img src="news_app_screenshot.png" alt="player git"  />
+<img src="exoplayer.png" alt="player git"  />
 
 A demo project--
 
