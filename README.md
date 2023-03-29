@@ -1,10 +1,10 @@
-# News App
-<img src="exoplayer.png" alt="player git"  />
+# Exo-Player-movies_db App
+<img src="exoplayer_app.png" alt="player git"  />
 
 A demo project--
 
 
-This app demonstrate the use of mvvm architecure with koin depenedency injection and News API 
+This app demonstrate the use of mvvm architecure with koin depenedency injection and MoivesDB API 
 ## Features
 
 - [x] kotlin AndroidX
@@ -17,10 +17,8 @@ This app demonstrate the use of mvvm architecure with koin depenedency injection
 
 
 ## Description
-- News Application application has two Pages
-- Main screen show latest news ,popular news list
-- Details screen show the news in detail
-
+- ExoPlatyer Application application has two Pages
+- Main screen show latest movues lisrt ,movie trailer page
 
 ## License
 ```
