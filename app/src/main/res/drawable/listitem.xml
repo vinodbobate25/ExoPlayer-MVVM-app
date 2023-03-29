@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewAvatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtHeader"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtNews"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tv_source"
+        app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+        app:layout_constraintTop_toBottomOf="@id/txtHeader"
+        tools:text="" />
+    <TextView
+        android:id="@+id/tv_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageViewAvatar"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_source_bg"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_bookmark"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_baseline_bookmark_border_24"
+        android:layout_alignParentBottom="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

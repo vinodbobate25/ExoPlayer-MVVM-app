@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExoPlayer-MVVM-app</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="search">Search</string>
+    <string name="movie">movie</string>
+    <string name="detail"></string>
+    <string name="media_url_mp4">https://media.geeksforgeeks.org/wp-content/uploads/20201217163353/Screenrecorder-2020-12-17-16-32-03-350.mp4</string>
+</resources>
