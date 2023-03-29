@@ -13,11 +13,13 @@ This app demonstrate the use of mvvm architecure with koin depenedency injection
 - [x] Flow
 - [x] Coroutine
 - [x] Jetpack Navigation
+- [x] ExoPlayer streaming
+
 
 
 
 ## Description
-- ExoPlatyer Application  has two Pages
+- ExoPlayer Application  has two Pages
 - Main screen show latest movies list ,movie trailer page
 
 ## License
